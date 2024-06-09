@@ -132,7 +132,7 @@ section {
     flex-wrap: wrap;
 
     .project__card {
-      max-width: 300px;
+      width: 100%;
       overflow: hidden;
 
       &.highlight {
@@ -157,6 +157,21 @@ section {
           padding: 2px 10px;
         }
       }
+
+      @media screen and (min-width: 600px) {
+        flex: 1 200px;
+        max-width: 300px;
+      }
     }
   }
+}
+
+.add_btn {
+  background-color: var(--color-highlight);
+  color: var(--color-text);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }

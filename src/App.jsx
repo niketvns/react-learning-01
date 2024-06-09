@@ -1,14 +1,10 @@
 import "./App.css";
-import Profile from "./Components/Profile/Profile";
-import Projects from "./Components/Projects/Projects";
-import Skills from "./Components/Skills/Skills";
+import { Counter } from "./Sections";
 
 function App() {
   return (
-    <div className="App">
-      <Profile />
-      <Skills />
-      <Projects />
+    <div className={"App"}>
+      <Counter />
     </div>
   );
 }

@@ -43,6 +43,7 @@ export const projects = [
     isHighlight: true,
     status: "In Progress",
     description: "This is just a project",
+    bgColor: "#F3B431",
   },
   {
     id: 3,
@@ -59,5 +60,6 @@ export const projects = [
     isHighlight: false,
     status: "Pending",
     description: "This is just a project",
+    bgColor: "#BB2CD9",
   },
 ];
